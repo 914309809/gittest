@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+input,
+button {
+  outline: none;
+  border: none;
+}
+.box {
+  width: 100%;
+  height: 100%;
+  padding: 84px;
+  box-sizing: border-box;
+  background-color: #a3d5ad;
+}
+.box > div {
+  background-color: #fff;
+  width: 1470px;
+  height: 877px;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 30px;
+  padding: 172px 145px 150px 44px;
+  box-sizing: border-box;
+}
+.box > div > .left {
+  width: 713px;
+  height: 426px;
+  margin-right: 183px;
+}
+.box > div > .left > img {
+  display: block;
+  border-radius: 30px;
+}
+.box > div > .right {
+  width: 421px;
+  height: 426px;
+}
+.box > div > .right > p > input {
+  width: 421px;
+  height: 46px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #bcbcbc;
+  margin-bottom: 28px;
+  padding-left: 37px;
+}
+.box > div > .right > p:first-child {
+  height: 60px;
+  margin-bottom: 50px;
+  display: flex;
+}
+.box > div > .right > p:first-child > img {
+  display: inline-block;
+  margin-right: 14px;
+  margin-left: 131px;
+  width: 60px;
+  height: 60px;
+}
+.box > div > .right > p:first-child > span {
+  font-size: 35px;
+}
+.box > div > .right > p:nth-of-type(2) {
+  border-bottom: 2px solid #bcbcbc;
+  height: 46px;
+  margin-bottom: 28px;
+  position: relative;
+}
+.box > div > .right > p:nth-of-type(2) > img {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 13px;
+}
+.box > div > .right > p:nth-of-type(3) {
+  border-bottom: 2px solid #bcbcbc;
+  height: 46px;
+  margin-bottom: 28px;
+  position: relative;
+}
+.box > div > .right > p:nth-of-type(3) > img {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 13px;
+}
+.box > div > .right > p:nth-of-type(4) {
+  border-bottom: 2px solid #bcbcbc;
+  height: 46px;
+  margin-bottom: 63px;
+  position: relative;
+}
+.box > div > .right > p:nth-of-type(4) > img {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 13px;
+}
+.box > div > .right > p:nth-of-type(4) > input {
+  width: 340px;
+}
+.box > div > .right > p:nth-of-type(4) > button {
+  width: 81px;
+  color: #15c4a7;
+  font-size: 16px;
+  background-color: #ffffff;
+}
+.box > div > .right > p:last-child > button {
+  width: 421px;
+  display: block;
+  height: 50px;
+  color: #ffffff;
+  font-size: 15px;
+  border-radius: 6px;
+  background: -webkit-linear-gradient(left, #0fbc79, #18c7ba);
+}
