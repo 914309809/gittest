@@ -80,6 +80,10 @@ button {
   height: 46px;
   margin-bottom: 28px;
   position: relative;
+  display: flex;
+}
+.box > div > .right > p:nth-of-type(3) > input {
+  width: 310px;
 }
 .box > div > .right > p:nth-of-type(3) > img {
   width: 18px;
@@ -88,6 +92,14 @@ button {
   position: absolute;
   left: 0;
   top: 13px;
+}
+.box > div > .right > p:nth-of-type(3) > span {
+  height: 40px;
+  display: inline-block;
+  width: 100px;
+  color: #15c4a7;
+  font-size: 16px;
+  background-color: #bcbcbc;
 }
 .box > div > .right > p:nth-of-type(4) {
   border-bottom: 2px solid #bcbcbc;
