@@ -17,11 +17,11 @@ button {
 .box > div {
   background-color: #fff;
   width: 1470px;
-  height: 877px;
+  height: 675px;
   display: flex;
   margin: 0 auto;
   border-radius: 30px;
-  padding: 172px 145px 150px 44px;
+  padding: 77px 145px 150px 44px;
   box-sizing: border-box;
 }
 .box > div > .left {
@@ -36,6 +36,7 @@ button {
 .box > div > .right {
   width: 421px;
   height: 426px;
+  margin-top: 35px;
 }
 .box > div > .right > p > input {
   width: 421px;
